@@ -32,3 +32,9 @@ Catalog pages have 24 products per page, URL-backed filters/search/sort, page co
 The opening now uses a 2.35-second typographic Royal Flaires reveal with abstract fold panels, an entry control, and explicit replay. A pre-render session check prevents the reveal from flashing again during ordinary navigation; reduced-motion visitors receive the static hero. Navigation remains available throughout.
 
 The homepage now features six image-led product categories, a product-type selector with distinct curated selections, hero category shortcuts, and a separate jewellery/clutch edit. Existing product identity, attribution, catalog count and purchasing safeguards are preserved. Desktop and 390px mobile layouts, opening replay/skip, product-type changes and category destinations were checked in the browser.
+
+## Vercel deployment
+
+`vercel.json` selects the Next.js framework, `npm run build:vercel`, and `.next` output. The Vercel build runs native `next build --webpack` and generates `.next/routes-manifest.json`; it does not use Sites' Vinext/Cloudflare output. `npm run build` also selects native Next.js when `VERCEL=1`. For local Next.js preview use `npm run dev:next` or `npm run start:vercel` after building. The existing Sites build remains available outside Vercel.
+
+Validation: the native Next.js production build completed successfully, including TypeScript, static pages, dynamic catch-all routes and build traces. The routes manifest was parsed and its dynamic product/collection route checked.
