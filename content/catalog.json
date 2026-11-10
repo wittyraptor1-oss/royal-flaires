@@ -1,21 +1,4 @@
 {
-  "products": [
-    {
-      "id": "biba-pink",
-      "slug": "biba-pink-poly-georgette-printed-saree",
-      "name": "Pink Poly Georgette Printed Saree With Blouse",
-      "maker": "BIBA",
-      "fabric": "Poly Georgette",
-      "colour": "Pink",
-      "sourceListedPriceINR": 4197,
-      "sourceCheckedAt": "2026-11-10",
-      "source": "https://www.biba.in/pink-poly-georgette-printed-saree-with-blouse/SKD31927SS26PNK.html",
-      "purchasable": false,
-      "inventory": null,
-      "rightsBasis": "User explicitly confirmed authorized store access and resale permission, and requested product/photo reuse.",
-      "sku": "SKD31927SS26PNK"
-    }
-  ],
   "collections": [],
   "business": {
     "email": null,
@@ -35,5 +18,8 @@
     "source": "User-supplied Chiffon_saree_video_montage_7ee90011.mp4",
     "purpose": "Editorial visual story; not a purchasable inventory record",
     "compositionVerified": false
-  }
+  },
+  "productsFile": "products.json",
+  "sourceCatalog": "BIBA",
+  "rightsBasis": "User confirmed authorized BIBA access and resale permission, then explicitly requested the product and photo import."
 }

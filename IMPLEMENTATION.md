@@ -20,3 +20,9 @@ Do not represent the editorial film as a purchasable product or evidence of comp
 ## Verification
 
 TypeScript and production build. Browser review of opening, collection navigation, search modal, focus restoration and fabric route. Real device performance, complete desktop/touch/reduced-motion validation, payment verification and provider integration checks remain outstanding.
+
+## Expanded catalog
+
+The BIBA edit imports 504 distinct product records from BIBA public product pages, deduplicated by source SKU. Each entry retains BIBA identity, its source URL, listed INR price and check date. All catalog entries are non-purchasable; reference prices are not Royal Flaires offers. Source photographs are downloaded and served locally as WebP assets. Category, colour and fabric labels are grounded in the original product names, with no invented fibre percentages, measurements or stock. BIBA styles are kept separate from Royal Flaires chiffon inventory.
+
+Catalog pages have 24 products per page, URL-backed filters/search/sort, page controls, product detail routes, zoom and device-local saved favourites. The homepage shows eight featured pieces and links to the full catalog. The legacy pink saree URL is retained.
