@@ -26,3 +26,9 @@ TypeScript and production build. Browser review of opening, collection navigatio
 The BIBA edit imports 504 distinct product records from BIBA public product pages, deduplicated by source SKU. Each entry retains BIBA identity, its source URL, listed INR price and check date. All catalog entries are non-purchasable; reference prices are not Royal Flaires offers. Source photographs are downloaded and served locally as WebP assets. Category, colour and fabric labels are grounded in the original product names, with no invented fibre percentages, measurements or stock. BIBA styles are kept separate from Royal Flaires chiffon inventory.
 
 Catalog pages have 24 products per page, URL-backed filters/search/sort, page controls, product detail routes, zoom and device-local saved favourites. The homepage shows eight featured pieces and links to the full catalog. The legacy pink saree URL is retained.
+
+## Landing page refresh
+
+The opening now uses a 2.35-second typographic Royal Flaires reveal with abstract fold panels, an entry control, and explicit replay. A pre-render session check prevents the reveal from flashing again during ordinary navigation; reduced-motion visitors receive the static hero. Navigation remains available throughout.
+
+The homepage now features six image-led product categories, a product-type selector with distinct curated selections, hero category shortcuts, and a separate jewellery/clutch edit. Existing product identity, attribution, catalog count and purchasing safeguards are preserved. Desktop and 390px mobile layouts, opening replay/skip, product-type changes and category destinations were checked in the browser.
