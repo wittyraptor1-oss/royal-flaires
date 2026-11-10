@@ -1,0 +1,1 @@
+export default function robots(){return {rules:{userAgent:'*',allow:'/',disallow:['/account','/sign-in','/search','/wishlist','/bag','/checkout','/track-order','/returns-request']},sitemap:'https://royal-flaires.dhruvesh11111111.chatgpt.site/sitemap.xml'}}

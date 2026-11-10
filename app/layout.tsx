@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata:Metadata={metadataBase:new URL('https://royal-flaires.dhruvesh11111111.chatgpt.site'),title:'Royal Flaires | Chiffon Sarees & Elegant Drapes',description:'Explore Royal Flaires chiffon sarees, discover fabric details and find your next drape with clear product information and styling inspiration.',alternates:{canonical:'/'},openGraph:{title:'Royal Flaires | Elegance in Every Fold',images:['/media/drape-2.webp']}};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"WebSite",name:"Royal Flaires",url:"https://royal-flaires.dhruvesh11111111.chatgpt.site"})}}/></body></html>}

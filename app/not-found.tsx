@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="pagewrap"><a className="wordmark" href="/">Royal Flaires</a><h1>This page has slipped away.</h1><p>Discover the collection and find your way back to the drape.</p><a className="button" href="/">Return home</a></main>}

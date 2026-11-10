@@ -1,0 +1,1 @@
+export default function sitemap(){return ['','/sarees','/sarees/chiffon','/feel-the-fabric','/our-story','/journal','/care-guide','/faqs','/contact','/shipping','/returns-exchanges','/privacy','/terms','/journal/understanding-fabric','/journal/reading-saree-measurements','/journal/blouse-piece-inclusion'].map(p=>({url:'https://royal-flaires.dhruvesh11111111.chatgpt.site'+p}))}
